@@ -1,0 +1,155 @@
+#carouselExampleRide {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-inner,
+.carousal-item {
+    height: 100%;
+}
+
+#imgswastha {
+    width: 10%;
+    height: auto;
+}
+
+.nb-fheading {
+    font-family: 'Love Light', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.nb-fpara {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.custom-shape-divider-bottom-1707060334 {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707060334 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 113px;
+}
+
+.custom-shape-divider-bottom-1707060334 .shape-fill {
+    fill: #FCDB7A;
+}
+
+#Achievements {
+    background-color: #FCDB7A;
+}
+
+#ourbranches {
+
+    background-color: #fad35f;
+}
+
+.nb-about-heading {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.nb-about-content {
+    font-family: 'Single Day', cursive;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.nb-card-text {
+    font-weight: 650;
+}
+
+.nb-achievement-text {
+    font-weight: bold;
+}
+
+.custom-shape-divider-top-1718434611 {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1718434611 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 123px;
+}
+
+.custom-shape-divider-top-1718434611 .shape-fill {
+    fill: #FCDB7A;
+}
+
+.nb-social-icon {
+    cursor: pointer;
+}
+
+.nb-mainline {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.custom-shape-divider-bottom-1718445571 {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718445571 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 123px;
+}
+
+.custom-shape-divider-bottom-1718445571 .shape-fill {
+    fill: #FAD25D;
+}
+
+#home-main {
+    background-color: #FAD25D;
+}
+
+.custom-shape-divider-top-1718446513 {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1718446513 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-top-1718446513 .shape-fill {
+    fill: #FAD25D;
+}
+
+.nb-tac-text {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
