@@ -158,7 +158,7 @@ function Signup() {
           <div class="form-check mb-3">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onChange={handleTac} />
             <label class="form-check-label" for="flexCheckDefault">
-              <Link to="/tac" style={{ textDecoration: "none", color: "black" }}>I agree to Farm-Connect Terms and Conditions</Link>
+              <Link to="/tac" target='_blank'style={{ textDecoration: "none", color: "black" }}>I agree to <span style={{ textDecorationLine:'underline'}}>Farm-Connect Terms and Conditions</span></Link>
             </label>
           </div>
 

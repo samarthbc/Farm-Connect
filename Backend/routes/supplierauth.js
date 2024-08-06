@@ -170,8 +170,8 @@ router.post('/pfp',upload.single('file'), fetchsupplier,async (req,res)=>{
 
 // Get by id
 router.post('/getbyid',async(req,res)=>{
-    let supplierId = req.supplier.id
-    const supplier = await Supplier.findById(supplierId)
+    const {id} = req.body;
+    const supplier = await Supplier.findById(id)
 
     return res.json(supplier)
 })

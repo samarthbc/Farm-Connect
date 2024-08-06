@@ -85,7 +85,7 @@ function About() {
         <h3 className="nb-fheading">Our Achievements</h3>
         <div className="d-flex justify-content-around flex-nowrap align-items-center" style={{ maxWidth: "90vw", margin: "0 auto", flexWrap: "wrap" }}>
           <img src={require("../static/about/guiness_world_record1.jpg")} alt="" className="img-fluid py-2" style={{ width: "300px", height: "auto", marginLeft: "100px" }} />
-          <p className="container text-center py-2 nb-achievement-text" style={{ fontSize: "20px", marginBottom: "0", paddingLeft: "50px" }}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus rerum non quae perferendis. Quisquam, placeat recusandae. Fuga laboriosam perferendis illo quod quis. Nam architecto odit harum, inventore repellat totam laborum blanditiis, voluptate, optio consequuntur nobis minima aspernatur officiis. Pariatur quis nihil tenetur ipsum nesciunt distinctio numquam consectetur delectus corrupti voluptas? </p>
+          <p className="container text-center py-2 nb-achievement-text" style={{ fontSize: "20px", marginBottom: "0", paddingLeft: "50px" }}> The record-breaking achievement underscores Farm-Connect's commitment to leveraging technology to bridge gaps in the agricultural supply chain. By providing a comprehensive and user-friendly interface, the platform has enabled seamless transactions, knowledge sharing, and resource distribution among its members. This connectivity not only enhances operational efficiency but also empowers farmers with access to critical supplies and markets, while allowing buyers to source fresh, high-quality produce directly from the source. </p>
         </div>
       </div>
 
@@ -111,7 +111,7 @@ function About() {
         <div>
           <p className='my-3' style={{ fontWeight: "bold" }}>Copyright © 2024 FARM-CONNECT PVT-LTD ALL RIGHTS RESERVED</p>
           <p className='text-center' style={{ cursor: 'pointer' }}>
-            <Link to='/tac' className='nav-link'>Terms and Conditions</Link>
+            <Link to='/tac' className='nav-link' target='_blank'>Terms and Conditions</Link>
           </p>
         </div>
         <div className="d-flex flex-column p-3">

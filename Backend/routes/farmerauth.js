@@ -91,7 +91,7 @@ router.post('/login',
             const farmer = await Farmer.findOne({ email });
 
             if (!farmer) {
-                return res.status(400).json({ error: "Incoreect username or password", success: false });
+                return res.status(400).json({ error: "Incorrect username or password", success: false });
             }
 
             // To check if password matches
